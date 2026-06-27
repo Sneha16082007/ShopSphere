@@ -145,43 +145,43 @@ ShopSphere/
 
 ## 🏠 Home Page
 
-![Home Page](screenshots/Screenshot%202026-06-27%20121229.png)
+![Home Page](Screenshot%202026-06-27%20121229.png)
 
 ---
 
 ## 🛍️ Products Page
 
-![Products Page](screenshots/Screenshot%202026-06-27%20121240.png)
+![Products Page](Screenshot%202026-06-27%20121240.png)
 
 ---
 
 ## 📦 Product Details
 
-![Product Details](screenshots/Screenshot%202026-06-27%20121301.png)
+![Product Details](Screenshot%202026-06-27%20121301.png)
 
 ---
 
 ## 🛒 Shopping Cart
 
-![Shopping Cart](screenshots/Screenshot%202026-06-27%20121339.png)
+![Shopping Cart](Screenshot%202026-06-27%20121339.png)
 
 ---
 
 ## ❤️ Wishlist
 
-![Wishlist](screenshots/Screenshot%202026-06-27%20121330.png)
+![Wishlist](Screenshot%202026-06-27%20121330.png)
 
 ---
 
 ## ℹ️ About Page
 
-![About Page](screenshots/Screenshot%202026-06-27%20121313.png)
+![About Page](Screenshot%202026-06-27%20121313.png)
 
 ---
 
 ## 📞 Contact Page
 
-![Contact Page](screenshots/Screenshot%202026-06-27%20122004.png)
+![Contact Page](Screenshot%202026-06-27%20122004.png)
 
 # ⚙️ Installation
 
