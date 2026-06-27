@@ -32,7 +32,7 @@ async function fetchProducts() {
 
     try {
 
-        const response = await fetch("data/products.json");
+        const response = await fetch("products.json");
 
         allProducts = await response.json();
 
