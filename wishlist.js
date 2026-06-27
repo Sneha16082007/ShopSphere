@@ -29,7 +29,7 @@ async function loadWishlist(){
     try{
 
         const response =
-        await fetch("data/products.json");
+        await fetch("products.json");
 
         products =
         await response.json();
