@@ -206,7 +206,7 @@ async function loadFeaturedProducts() {
 
     try {
 
-        const response = await fetch("data/products.json");
+        const response = await fetch("products.json");
 
         const products = await response.json();
 
