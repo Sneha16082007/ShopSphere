@@ -18,7 +18,7 @@ async function loadCart() {
 
     try {
 
-        const response = await fetch("data/products.json");
+        const response = await fetch("products.json");
         products = await response.json();
 
         displayCart();
