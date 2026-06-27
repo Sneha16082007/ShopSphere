@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | ShopSphere</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product.css">
+</head>
+
+<body>
+
+    <!-- Animated Background -->
+
+    <div class="gradient-bg">
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+        <div class="blob blob3"></div>
+    </div>
+
+    <!-- Navbar -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span>ShopSphere</span>
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+            <div class="nav-icons">
+
+                <a href="wishlist.html">
+                    <i class="fa-regular fa-heart"></i>
+                </a>
+
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Product Details -->
+
+    <section class="product-details">
+
+        <!-- Product Image -->
+
+        <div class="product-gallery">
+
+            <img id="productImage"
+                src="assets/images/products/laptop.png"
+                alt="Product">
+
+        </div>
+
+        <!-- Product Information -->
+
+        <div class="product-content">
+
+            <span class="badge">
+
+                ⭐ Best Seller
+
+            </span>
+
+            <h1 id="productName">
+
+                Gaming Laptop
+
+            </h1>
+
+            <div class="rating">
+
+                ⭐⭐⭐⭐⭐
+
+                <span>
+
+                    (245 Reviews)
+
+                </span>
+
+            </div>
+
+            <h2 id="productPrice">
+
+                ₹79,999
+
+            </h2>
+
+            <p id="productDescription">
+
+                Premium gaming laptop designed for creators and gamers.
+
+            </p>
+
+            <div class="specifications">
+
+                <h3>Specifications</h3>
+
+                <ul>
+
+                    <li>Intel Core i7 Processor</li>
+
+                    <li>16GB RAM</li>
+
+                    <li>512GB SSD</li>
+
+                    <li>RTX Graphics</li>
+
+                    <li>15.6" Full HD Display</li>
+
+                </ul>
+
+            </div>
+
+            <!-- Quantity -->
+
+            <div class="quantity">
+
+                <button id="minus">
+
+                    -
+
+                </button>
+
+                <input
+                    type="number"
+                    id="quantity"
+                    value="1"
+                    min="1">
+
+                <button id="plus">
+
+                    +
+
+                </button>
+
+            </div>
+
+            <!-- Buttons -->
+
+            <div class="action-buttons">
+
+                <button id="cartBtn" class="btn">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    Add to Cart
+
+                </button>
+
+                <button id="wishlistBtn" class="btn secondary">
+
+                    <i class="fa-regular fa-heart"></i>
+
+                    Wishlist
+
+                </button>
+
+            </div>
+
+            <!-- Delivery -->
+
+            <div class="delivery-info">
+
+                <h3>
+
+                    Delivery Information
+
+                </h3>
+
+                <p>🚚 Free Delivery</p>
+
+                <p>🔒 Secure Payment</p>
+
+                <p>↩ 7 Days Return Policy</p>
+
+                <p>✔ Genuine Products</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Related Products -->
+
+    <section class="related-products">
+
+        <h2 class="section-title">
+
+            Related Products
+
+        </h2>
+
+        <div id="relatedContainer">
+
+            <!-- Loaded by product.js -->
+
+        </div>
+
+    </section>
+
+    <!-- Customer Reviews -->
+
+    <section class="reviews">
+
+        <h2 class="section-title">
+
+            Customer Reviews
+
+        </h2>
+
+        <div class="review-card">
+
+            <h4>Rahul Sharma ⭐⭐⭐⭐⭐</h4>
+
+            <p>
+
+                Amazing quality and fast delivery.
+                Highly recommended.
+
+            </p>
+
+        </div>
+
+        <div class="review-card">
+
+            <h4>Priya Singh ⭐⭐⭐⭐⭐</h4>
+
+            <p>
+
+                Worth every penny.
+                Excellent product.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+
+                <h2>ShopSphere</h2>
+
+                <p>
+
+                    Premium Shopping Experience.
+
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+            <div>
+
+                <h3>Follow Us</h3>
+
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-x-twitter"></i>
+
+            </div>
+
+        </div>
+
+        <p class="copyright">
+
+            © 2026 ShopSphere. All Rights Reserved.
+
+        </p>
+
+    </footer>
+
+    <script src="js/product.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "category": "Electronics",
+    "price": 2499,
+    "rating": 4.8,
+    "image": "assets/images/products/headphone.png",
+    "description": "Premium noise cancelling wireless headphones."
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch",
+    "category": "Electronics",
+    "price": 3999,
+    "rating": 4.7,
+    "image": "assets/images/products/watch.png",
+    "description": "Fitness tracking smartwatch."
+  },
+  {
+    "id": 3,
+    "name": "Gaming Laptop",
+    "category": "Electronics",
+    "price": 79999,
+    "rating": 4.9,
+    "image": "assets/images/products/laptop.png",
+    "description": "High performance gaming laptop."
+  },
+  {
+    "id": 4,
+    "name": "Running Shoes",
+    "category": "Fashion",
+    "price": 2999,
+    "rating": 4.5,
+    "image": "assets/images/products/shoes.png",
+    "description": "Comfortable lightweight running shoes."
+  },
+  {
+    "id": 5,
+    "name": "DSLR Camera",
+    "category": "Electronics",
+    "price": 45999,
+    "rating": 4.8,
+    "image": "assets/images/products/camera.png",
+    "description": "Professional DSLR camera."
+  },
+  {
+    "id": 6,
+    "name": "Leather Bag",
+    "category": "Fashion",
+    "price": 1999,
+    "rating": 4.6,
+    "image": "assets/images/products/bag.png",
+    "description": "Premium leather backpack."
+  },
+  {
+    "id": 7,
+    "name": "Smartphone",
+    "category": "Mobiles",
+    "price": 24999,
+    "rating": 4.9,
+    "image": "assets/images/products/phone.png",
+    "description": "Latest flagship smartphone."
+  },
+  {
+    "id": 8,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 3499,
+    "rating": 4.7,
+    "image": "assets/images/products/speaker.png",
+    "description": "Portable Bluetooth speaker."
+  }
+]
